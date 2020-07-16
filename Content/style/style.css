@@ -316,13 +316,13 @@ header {
 		width: 50%;
 	}
 
-		.resume .section .section-title {
+		.resume .section-title {
 			display: block;
 			width: 100%;
 			margin-bottom: 20px;
 		}
 
-			.resume .section .section-title h2 {
+			.resume .section-title h2 {
 				font-weight: 600;
 				font-style: normal;
 				color: #f5f5f5;
@@ -333,7 +333,7 @@ header {
 				padding-bottom: 8px;
 			}
 
-				.resume .section .section-title h2:before {
+				.resume .section-title h2:before {
 					display: block;
 					position: absolute;
 					content: '';
@@ -343,7 +343,7 @@ header {
 					bottom: 0;
 				}
 
-				.resume .section .section-title h2:after {
+				.resume .section-title h2:after {
 					display: block;
 					position: absolute;
 					content: '';
@@ -400,6 +400,26 @@ header {
 		line-height: 1.75em;
 		padding: 15px;
 	}
+
+		.time-line a {
+			color: #007CED;
+			text-decoration: none;
+		}
+
+		.time-line a:hover {
+			text-decoration: underline;
+		}
+
+	.time-line h4 {
+		display: block;
+		width: 100%;
+		font-size: 15px;
+		color: #f8f8f8;
+		line-height: 1.75em;
+		padding: 15px 15px 0 15px;
+		font-weight: 400;
+	}
+
 
 /*
 	SKILLS
@@ -574,25 +594,25 @@ footer {
 		font-size: 14px;
 	}
 
-#up-button{
-	position:fixed;
-	width:50px;
-	height:50px;
-	font-size:25px;
-	bottom:20px;
-	right:20px;
-	border-radius:25px;
-	background:#333;
-	color:#888;
-	cursor:pointer;
-	text-align:center;
-	padding:8px 0 0 2px;
-	display:none;
+#up-button {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 25px;
+	background: #333;
+	color: #888;
+	cursor: pointer;
+	text-align: center;
+	padding: 8px 0 0 2px;
+	display: none;
 }
 
-#up-button:hover{
-	color:#007CED;
-}
+	#up-button:hover {
+		color: #007CED;
+	}
 
 /*
 	PAGE ANIMATION
@@ -604,6 +624,7 @@ footer {
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both
 }
+
 @-webkit-keyframes flipInLeft {
 	from {
 		-webkit-transform: translateZ(-1000px) rotateY(-90deg);
