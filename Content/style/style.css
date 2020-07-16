@@ -353,6 +353,19 @@ header {
 					bottom: 0;
 				}
 
+				.resume .section p{
+					display:block;
+				}
+
+					.resume .section p span {
+						display: inline-block;
+						background-color: #007CED;
+						border-radius: 3px;
+						color: #fff;
+						padding: 4px 10px;
+						margin: 3px 2px;
+						font-size: 13px;
+					}
 /*
 	TIME LINE
 */
